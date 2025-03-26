@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Bienvenido a Mi Sitio Web</h1>
+            <p>Un lugar donde la creatividad y la innovación se encuentran</p>
+        </section>
+
+        <section id="acerca" class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un equipo apasionado por crear experiencias web únicas y memorables.</p>
+        </section>
+
+        <section id="servicios" class="services">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Diseño Web</h3>
+                    <p>Creamos sitios web modernos y responsivos</p>
+                </div>
+                <div class="service-card">
+                    <h3>Desarrollo</h3>
+                    <p>Desarrollamos aplicaciones web personalizadas</p>
+                </div>
+                <div class="service-card">
+                    <h3>Marketing Digital</h3>
+                    <p>Estrategias efectivas para tu presencia online</p>
+                </div>
+            </div>
+            <div class="services-cta">
+                <a href="#formulario-cliente" class="btn-cliente">Registrarse como Cliente</a>
+            </div>
+        </section>
+
+        <section id="formulario-cliente" class="client-form">
+            <h2>Registro de Cliente</h2>
+            <form class="form-cliente">
+                <div class="form-group">
+                    <input type="text" placeholder="Nombre Completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Teléfono" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Seleccione un Servicio</option>
+                        <option value="diseno">Diseño Web</option>
+                        <option value="desarrollo">Desarrollo</option>
+                        <option value="marketing">Marketing Digital</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Describe tu proyecto" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="file" accept=".pdf,.doc,.docx" placeholder="Adjuntar documento (opcional)">
+                </div>
+                <button type="submit" class="btn-submit">Enviar Registro</button>
+            </form>
+        </section>
+
+        <section id="contacto" class="contact">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html> 
